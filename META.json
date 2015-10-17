@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "L<Sypex Geo|https://sypexgeo.net/> databases parser",
    "author" : [
-      "klopp <klopp@yandex.ru>"
+      "Vsevolod Lutovinov."
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v2.4.1, CPAN::Meta::Converter version 2.150005",
@@ -52,7 +52,21 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/klopp/Geo-Sypex/issues"
+      },
+      "homepage" : "https://github.com/klopp/Geo-Sypex",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/klopp/Geo-Sypex.git",
+         "web" : "https://github.com/klopp/Geo-Sypex"
+      }
+   },
+   "version" : "v1.0.10",
    "x_authority" : "cpan:KLOPP",
+   "x_contributors" : [
+      "klopp <klopp@yandex.ru>"
+   ],
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }
