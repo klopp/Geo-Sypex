@@ -1,0 +1,6 @@
+name = "Geo-Sypex"
+# badges = ["travis"]
+authority="cpan:KLOPP"
+
+module_maker="ModuleBuildTiny"
+
