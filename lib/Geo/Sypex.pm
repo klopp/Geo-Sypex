@@ -13,8 +13,6 @@ use base qw/Exporter/;
 use Socket qw/inet_aton/;
 use Encode qw/decode/;
 
-use Data::Printer;
-
 use vars qw/$VERSION @EXPORT_OK/;
 $VERSION   = 'v1.0.10';
 @EXPORT_OK = qw/SXGEO_BATCH SXGEO_MEM/;
