@@ -14,7 +14,7 @@ use Socket qw/inet_aton/;
 use Encode qw/decode/;
 
 use vars qw/$VERSION @EXPORT_OK/;
-$VERSION   = 'v1.0.10';
+$VERSION   = 'v1.0.11';
 @EXPORT_OK = qw/SXGEO_BATCH SXGEO_MEM/;
 
 # ------------------------------------------------------------------------------
@@ -523,7 +523,7 @@ Geo::Sypex - L<Sypex Geo|https://sypexgeo.net/> databases parser
 
 =head1 VERSION
 
-Version v1.0.10
+Version v1.0.11
 
 =head1 SYNOPSIS
 
@@ -582,7 +582,19 @@ Output:
         lon           38.04556
     }
 
+If no city information found next fields will be returned:
+
+    \ {
+        country_id    185,
+        country_iso   "ru",
+        lat           55.96056, # not mandatory
+        lon           38.04556, # not mandatory
+        region_id     10267     # not mandatory
+    }
+
 For F<SxGeo.dat> only two field avaliable: C<country_id>, C<country_iso>.
+
+
 
 =item errstr
 
