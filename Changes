@@ -1,6 +1,8 @@
 Revision history for Perl extension Geo-Sypex
 
 {{$NEXT}}
+    
+    - .gitattributes added
 
 v1.0.12 2015-10-18T22:45:30Z
 
