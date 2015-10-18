@@ -624,5 +624,5 @@ Contact the author at klopp@yandex.ru.
 =head1 SOURCE CODE
 
 Source code and issues can be found here:
- L<https://github.com/klopp/sxgeo-perl>
+ L<https://github.com/klopp/Geo-Sypex/>
 
