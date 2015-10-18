@@ -594,8 +594,6 @@ If no city information found next fields will be returned:
 
 For F<SxGeo.dat> only two field avaliable: C<country_id>, C<country_iso>.
 
-
-
 =item errstr
 
 Return internal error string. Example:
