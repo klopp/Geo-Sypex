@@ -4,7 +4,7 @@ Geo::Sypex - [Sypex Geo](https://sypexgeo.net/) databases parser
 
 # VERSION
 
-Version v1.0.11
+Version v1.0.12
 
 # SYNOPSIS
 
@@ -98,4 +98,4 @@ Contact the author at klopp@yandex.ru.
 # SOURCE CODE
 
 Source code and issues can be found here:
- [https://github.com/klopp/sxgeo-perl](https://github.com/klopp/sxgeo-perl)
+ [https://github.com/klopp/Geo-Sypex/](https://github.com/klopp/Geo-Sypex/)

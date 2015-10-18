@@ -14,7 +14,7 @@ use Socket qw/inet_aton/;
 use Encode qw/decode/;
 
 use vars qw/$VERSION @EXPORT_OK/;
-$VERSION   = 'v1.0.11';
+$VERSION   = 'v1.0.12';
 @EXPORT_OK = qw/SXGEO_BATCH SXGEO_MEM/;
 
 # ------------------------------------------------------------------------------
@@ -523,7 +523,7 @@ Geo::Sypex - L<Sypex Geo|https://sypexgeo.net/> databases parser
 
 =head1 VERSION
 
-Version v1.0.11
+Version v1.0.12
 
 =head1 SYNOPSIS
 

@@ -63,7 +63,7 @@
          "web" : "https://github.com/klopp/Geo-Sypex"
       }
    },
-   "version" : "v1.0.11",
+   "version" : "v1.0.12",
    "x_authority" : "cpan:KLOPP",
    "x_contributors" : [
       "klopp <klopp@yandex.ru>"
