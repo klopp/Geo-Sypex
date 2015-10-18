@@ -4,7 +4,7 @@ Geo::Sypex - [Sypex Geo](https://sypexgeo.net/) databases parser
 
 # VERSION
 
-Version v1.0.10
+Version v1.0.11
 
 # SYNOPSIS
 
@@ -58,6 +58,16 @@ Only `SxGeo.dat` and `SxGeoCity.dat` supported.
             city_en       "Fryazino",
             lat           55.96056,
             lon           38.04556
+        }
+
+    If no city information found next fields will be returned:
+
+        \ {
+            country_id    185,
+            country_iso   "ru",
+            lat           55.96056, # not mandatory
+            lon           38.04556, # not mandatory
+            region_id     10267     # not mandatory
         }
 
     For `SxGeo.dat` only two field avaliable: `country_id`, `country_iso`.
