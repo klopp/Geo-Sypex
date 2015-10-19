@@ -4,7 +4,7 @@ Geo::Sypex - [Sypex Geo](https://sypexgeo.net/) databases parser
 
 # VERSION
 
-Version v1.0.12
+Version v1.0.13
 
 # SYNOPSIS
 
