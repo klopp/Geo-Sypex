@@ -16,4 +16,4 @@ $ip ||= '127.0.0.1';
 my $geodata = $sxgeo->get( $ip );
 
 say "Content-Type: text/plain; charset=UTF-8\n\nIP: $ip\n";
-say $geodata ? p($geodata) : 'Error: '.$sxgeo->error;
+say $geodata ? p($geodata) : 'Error: '.$sxgeo->errstr;
