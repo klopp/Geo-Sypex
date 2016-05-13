@@ -5,17 +5,15 @@ package Geo::Sypex;
 #   Author    : Vsevolod Lutovinov <klopp@yandex.ru>
 #   Based on  : Geo::SypexGeo by Andrey Kuzmin
 # ------------------------------------------------------------------------------
-use strict;
-use warnings;
-use Exporter;
-use base qw/Exporter/;
+use Modern::Perl;
+use Exporter qw/import/;
 
 use Socket qw/inet_aton/;
 use Encode qw/decode/;
 
-use vars qw/$VERSION @EXPORT_OK/;
+use vars qw/$VERSION/;
 $VERSION   = 'v1.0.13';
-@EXPORT_OK = qw/SXGEO_BATCH SXGEO_MEM/;
+our @EXPORT_OK = qw/SXGEO_BATCH SXGEO_MEM/;
 
 # ------------------------------------------------------------------------------
 use constant ID2ISO => [
